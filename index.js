@@ -12,11 +12,58 @@ let oceans = ['Pacific','Atlantic','Indian','Southerm','Artic']
 
 console.log(oceans[0])
 
+let oceanDetails = [{
+    name: 'Pacific',
+    longitude: '-180',
+    latitude: '-90',
+    depth: '-1000'
+},
+{
+    name: 'Atlantic',
+    longitude: '-180',
+    latitude: '-90',
+    depth: '-1000'
+},
+{
+    name: 'Indian',
+    longitude: '-180',
+    latitude: '-90',
+    depth: '-1000'
+},
+{
+    name: 'Southern',
+    longitude: '-180',
+    latitude: '-90',
+    depth: '-1000'
+},
+{
+    name: 'Arctic',
+    longitude: '-180',
+    latitude: '-90',
+    depth: '-1000'
+}];
+
+console.log(oceanDetails[0])
+
 let sharks = new Array(
     "Hamm",
     "Great White",
     "Tiger"
 );
+
+console.log(sharks.length)
+
+let mixedData = [
+    "string",
+    42,
+    true,
+    [1, 2, 3, 4],
+    ["1", null, false],
+    {
+        name: "John",
+        age: 30
+    }
+]
 
 let seaCreatures = [
     'Octopus', //0
@@ -56,6 +103,8 @@ seaCreatures[9] ='whale';
 seaCreatures.splice(8,1);
 
 console.log(seaCreatures);
+
+//deep copy array
 
 //let newArray = [...seaCreatures]
 
