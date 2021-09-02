@@ -27,7 +27,7 @@ numbers.sort(sortNumbers);
 
 console.log(numbers)
 
-let shark = ['Great White', 'Tiger', 'hammerhead', 'dogfish', 'coelacanth', 'starfish'];
+let shark = ['Great White', 'Tiger', 'hammerhead', 'dogfish', 'coelacanth', 'hammerhead', 'starfish'];
 
 let mammals = ["Whale", "Dolphin"];
 
@@ -41,19 +41,21 @@ let fishString = fish.join(', ');
 
 console.log(fishString)
 
+console.log(seaAnimals)
+
 console.log(shark.indexOf('hammerhead'));
 
 console.log(shark.lastIndexOf('hammerhead'));
 
 //regular function
-var example = function() {
+//var example = function() {
     // code to execute
-}
+//}
 
 //arrow function
-let example = () => {
+//let example = () => {
     // code to execute
-}
+//}
 
 //example();
 
